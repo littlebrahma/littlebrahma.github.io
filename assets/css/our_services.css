@@ -11,104 +11,8 @@
   src: url("/assets/font/MavenPro-Regular.ttf"); }
 
 @font-face {
-  font-family: 'PT_Sans-Regular';
+  font-family: 'PT Sans', sans-serif;
   src: url("/assets/font/PT_Sans-Web-Regular.ttf"); }
-
-@font-face {
-  font-family: 'latoBold';
-  src: url("/assets/font/Lato-Bold.ttf"); }
-
-@font-face {
-  font-family: 'latoRegular';
-  src: url("/assets/font/Lato-Regular.ttf"); }
-
-@font-face {
-  font-family: 'latoLight';
-  src: url("/assets/font/Lato-Light.ttf"); }
-
-@font-face {
-  font-family: 'quicksandRegular';
-  src: url("/assets/font/quicksandRegular.ttf"); }
-
-@font-face {
-  font-family: 'quicksandLight';
-  src: url("/assets/font/quicksandLight.ttf"); }
-
-@font-face {
-  font-family: 'quicksandSemibold';
-  src: url("/assets/font/quicksandSemibold.ttf"); }
-
-@font-face {
-  font-family: 'quicksandBold';
-  src: url("/assets/font/quicksandBold.ttf"); }
-
-@font-face {
-  font-family: 'robotoRegular';
-  src: url("/assets/font/robotoRegular.ttf"); }
-
-@font-face {
-  font-family: 'robotoLight';
-  src: url("/assets/font/robotoRegular.ttf"); }
-
-@font-face {
-  font-family: 'robotoBold';
-  src: url("/assets/font/robotoRegular.ttf"); }
-
-@font-face {
-  font-family: 'PtSansRegular';
-  src: url("/assets/font/PT_Sans-Web-Regular.ttf"); }
-
-@font-face {
-  font-family: 'RajdhaniBold';
-  src: url("/assets/font/Rajdhani-Bold.ttf"); }
-
-@font-face {
-  font-family: 'RajdhaniMedium';
-  src: url("/assets/font/Rajdhani-Medium.ttf"); }
-
-@font-face {
-  font-family: 'RajdhaniRegular';
-  src: url("/assets/font/Rajdhani-Regular.ttf"); }
-
-@font-face {
-  font-family: 'MuliBold';
-  src: url("/assets/font/Muli-Bold.ttf"); }
-
-@font-face {
-  font-family: 'MuliLight';
-  src: url("/assets/font/Muli-Light.ttf"); }
-
-@font-face {
-  font-family: 'MuliRegular';
-  src: url("/assets/font/Muli-Regular.ttf"); }
-
-@font-face {
-  font-family: 'MuliSemiBold';
-  src: url("/assets/font/Muli-SemiBold.ttf"); }
-
-@font-face {
-  font-family: 'NotoSansBold';
-  src: url("/assets/font/NotoSans-Bold.ttf"); }
-
-@font-face {
-  font-family: 'NotoSansRegular';
-  src: url("/assets/font/NotoSans-Regular.ttf"); }
-
-@font-face {
-  font-family: 'NunitoRegular';
-  src: url("/assets/font/Nunito-Regular.ttf"); }
-
-@font-face {
-  font-family: 'HelveticaBold';
-  src: url("/assets/font/Helvetica Neu Bold.ttf"); }
-
-@font-face {
-  font-family: 'HelveticaNeueLight';
-  src: url("/assets/font/HelveticaNeue Light.ttf"); }
-
-@font-face {
-  font-family: 'HHelveticaNeueMeduim';
-  src: url("/assets/font/HHelveticaNeue Medium.ttf"); }
 
 body {
   width: 100%;
@@ -271,7 +175,7 @@ table {
   color: #ea1c49; }
 
 .bnrText {
-  font-family: 'PT_Sans-Regular';
+  font-family: 'PT Sans', sans-serif;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
@@ -327,7 +231,7 @@ table {
     color: #393939;
     line-height: normal; }
   .paragraph {
-    font-family: 'PT_Sans-Regular';
+    font-family: 'PT Sans', sans-serif;
     font-size: 12px;
     font-weight: normal;
     line-height: 1.5;
@@ -339,7 +243,7 @@ table {
     border-radius: 25px;
     font-size: 14px;
     padding: 6px 12px;
-    font-family: 'PT_Sans-Regular';
+    font-family: 'PT Sans', sans-serif;
     color: #fff;
     outline: none;
     text-align: center;
@@ -1869,7 +1773,7 @@ a:focus, a:hover {
   .prct .contextTitle {
     font-family: 'MavenPro-Medium'; }
   .prct .contextualTxt {
-    font-family: 'PT_Sans-Regular';
+    font-family: 'PT Sans', sans-serif;
     font-size: 12px; }
   .prct .prctDicipline {
     background: #fff; }
@@ -1888,7 +1792,7 @@ a:focus, a:hover {
     .prct_dic .bldContent {
       font-family: 'MavenPro-Bold'; }
     .prct_dic .bsTxt {
-      font-family: 'PT_Sans-Regular'; }
+      font-family: 'PT Sans', sans-serif; }
     .prct_dic .hckTitle {
       display: none; }
     .prct_dic .imgContainer {
@@ -1908,7 +1812,7 @@ a:focus, a:hover {
     line-height: 1.5;
     text-align: center; }
   .prct .dnaContainer {
-    font-family: 'PT_Sans-Regular';
+    font-family: 'PT Sans', sans-serif;
     display: table; }
   .prct .know-more-link {
     display: block; }
