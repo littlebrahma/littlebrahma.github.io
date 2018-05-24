@@ -4,9 +4,9 @@
 
     <div class="lb_bdy prct">
         <div class="hero_img">
-            <video  autoplay="autoplay" loop="loop" >
+            <video  autoplay="autoplay" loop="loop" id="vid" muted>
                 <source src="/assets/img/service/service.mp4" type="video/mp4" />
-                <img src="video.gif" width="400" height="300" />
+                <!-- <img src="video.gif" width="400" height="300" /> -->
             </video>
         </div>
         <div class="hero_cnt">
@@ -71,6 +71,9 @@
                 </div>
             </div> -->
         </div>
+        <script>
+            document.getElementById('vid').play();
+        </script>
     </div>
     {% include common_footer.html %}
  {% include footer.html %}

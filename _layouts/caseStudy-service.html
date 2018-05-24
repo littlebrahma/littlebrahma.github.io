@@ -21,7 +21,7 @@
         {% for box in page.box_lists %}
         <div class="CSservice__box {{page.color}}">
             <img src="/assets/img/caseStudy-service/{{ box.UImg1  | downcase }}.png">
-            <div class="csHeading boxHeading">{{box.box-Head1}}</div>
+            <div class="aboutHeading boxHeading">{{box.box-Head1}}</div>
             <p class="paragraph boxPara">{{box.box-para1}}</p>
         </div>
         {% endfor %}
@@ -36,7 +36,7 @@
         </div>
     </div>
     <div class="{{page.CSservice1}} {{page.hide}}">
-        <img src="/assets/img/caseStudy-service/{{ page.SImg1  | downcase }}.png">
+        <img src="/assets/img/caseStudy-service/{{ page.SImg1  | downcase }}.jpg">
     </div>
     {% if page.model == 'enigma' %}
     <div class="{{page.CSservice1}} {{page.mob-hide}}">
@@ -49,7 +49,7 @@
                 {{ page.cHead2 }}
             </div>
             {% for challenge in page.challenge_list %} {% if page.sbHead == 'yes' %}
-            <p class="csLightHead {{page.className}}">{{ challenge.subhead}}</p>
+            <p class="csLightHead aboutHeading {{page.className}}">{{ challenge.subhead}}</p>
             </br>
             {% endif %} {% for cont in challenge.content_para %}
             <p class="paragraph">{{ cont.cContent2}}</p>
@@ -69,7 +69,7 @@
             <div class="caseStudy__bgImg2 csHd" style="background-image: url('{{page.SImg2}}');">
                 <div class="caseStudy__content4">
                     <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
-                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead3 }}</div>
+                    <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead3 }}</div>
                     {% for para in page.perceive_para %}
                     <p class="paragraph color">{{ para.cContent5 }}</p>
                     </br>
@@ -82,7 +82,7 @@
             <div class="caseStudy__bgImg2 csMobile" style="background-image: url('{{page.SImg16}}');">
                 <div class="caseStudy__content4">
                     <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
-                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead3 }}</div>
+                    <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead3 }}</div>
                     {% for para in page.perceive_para %}
                     <p class="paragraph color">{{ para.cContent5 }}</p>
                     </br>
@@ -108,7 +108,7 @@
             <div class="caseStudy__bgImg csHd" style="background-image: url('{{page.SImg17}}');">
                 <div class="caseStudy__content2">
                     <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
-                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead3 }}</div>
+                    <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead3 }}</div>
                     {% for perceive in page.main_perceive %} {% for para in perceive.perceive_para %}
                     <p class="paragraph color">{{ para.cContent5 }}</p>
                     </br>
@@ -126,7 +126,7 @@
             <div class="caseStudy__bgImg csMobile" style="background-image: url('{{page.SImg4}}');">
                 <div class="caseStudy__content2">
                     <div class="caseStudy__cHead headingBold ">{{ page.cHead3 }}</div>
-                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead3 }}</div>
+                    <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead3 }}</div>
                     {% for perceive in page.main_perceive %} {% for para in perceive.perceive_para %}
                     <p class="paragraph color">{{ para.cContent5 }}</p>
                     </br>
@@ -141,7 +141,7 @@
                 </div>
 
             </div>
-            <img class="scenImg" src="/assets/img/caseStudy-service/{{ page.SImg19 | downcase }}.png">
+            <img class="scenImg" src="/assets/img/caseStudy-service/{{ page.SImg19 | downcase }}.jpg">
         </div>
         {% endif %}
     </div>
@@ -154,20 +154,20 @@
         <div class="paragraph">{{ page.cContent8 }}</div>
     </div>
     <div class="CSService3">
-        <img src="/assets/img/caseStudy-service/{{ page.SImg3  | downcase }}.png">
+        <img src="/assets/img/caseStudy-service/{{ page.SImg3  | downcase }}.jpg">
     </div>
     <div class="caseStudy">
         <div class="SceneImg">
             <div class="caseStudy__bgImg csHd" style="background-image: url('{{page.SImg17}}');">
                 <div class="caseStudy__content2">
                     <div class="caseStudy__cHead headingBold ">{{ page.cHead5 }}</div>
-                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead4 }}</div>
+                    <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead4 }}</div>
                     {% for adapt in page.adapt_loop %}
                     <p class="paragraph color">{{ adapt.cContent9 }}</p>
                     </br>
                     </br>
                     {% endfor %}
-                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead5 }}</div>
+                    <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead5 }}</div>
                     <p class="paragraph color">{{ page.cContent10 }}</p>
                 </div>
 
@@ -175,18 +175,18 @@
             <div class="caseStudy__bgImg csMobile" style="background-image: url('{{page.SImg4}}');">
                 <div class="caseStudy__content2">
                     <div class="caseStudy__cHead headingBold ">{{ page.cHead5 }}</div>
-                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead4 }}</div>
+                    <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead4 }}</div>
                     {% for adapt in page.adapt_loop %}
                     <p class="paragraph color ">{{ adapt.cContent9 }}</p>
                     </br>
                     </br>
                     {% endfor %}
-                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead5 }}</div>
+                    <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead5 }}</div>
                     <p class="paragraph color">{{ page.cContent10 }}</p>
                 </div>
 
             </div>
-            <img src="/assets/img/caseStudy-service/{{ page.SImg5 | downcase }}.png">
+            <img src="/assets/img/caseStudy-service/{{ page.SImg5 | downcase }}.jpg">
         </div>
     </div>
     <div class="CSService4">
@@ -202,14 +202,14 @@
                 {% endfor %}
             </div>
             <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0  col-lg-4 col-lg-offset-0 padding-0 padding-left">
-                <img src="/assets/img/caseStudy-service/{{ design.SImg6  | downcase }}.png">
+                <img src="/assets/img/caseStudy-service/{{ design.SImg6  | downcase }}.jpg">
             </div>
         </div>
         {% endif %} {% if thecycle == 'even' %}
         <div class="row padding-bottom">
 
             <div class="col-xs-10 col-xs-offset-1 col-xs-offset-0 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1  col-lg-4 col-lg-offset-1 padding-0 divB padding-right">
-                <img src="/assets/img/caseStudy-service/{{ design.SImg6  | downcase }}.png">
+                <img src="/assets/img/caseStudy-service/{{ design.SImg6  | downcase }}.jpg">
             </div>
             <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-lg-6 col-lg-offset-0 divA padding-0">
                 <div class="csHeading">{{ design.cHead6 }}</div>
@@ -229,7 +229,7 @@
                 {% endfor %}
             </div>
             <div class="col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1  cs-allign padding-0">
-                <img src="/assets/img/caseStudy-service/{{ fullImg.SImg8  | downcase }}.png">
+                <img src="/assets/img/caseStudy-service/{{ fullImg.SImg8  | downcase }}.jpg">
             </div>
         </div>
         {% endfor %}
@@ -243,13 +243,13 @@
 
             </div>
             <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12 cs-allign">
-                <img src="/assets/img/caseStudy-service/{{ page.SImg10  | downcase }}.png">
+                <img src="/assets/img/caseStudy-service/{{ page.SImg10  | downcase }}.jpg">
             </div>
         </div>
 
         <div class="row padding-bottom">
             <div class="col-xs-10 col-xs-offset-1  col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-lg-10 col-lg-offset-1 padding-0">
-                <img src="/assets/img/caseStudy-service/{{ page.SImg11  | downcase }}.png">
+                <img src="/assets/img/caseStudy-service/{{ page.SImg11  | downcase }}.jpg">
             </div>
         </div>
     </div>
@@ -262,7 +262,7 @@
             <div class="caseStudy__bgImg2 bg5 csHd " style="background-image: url('{{page.SImg15}}');">
                 <div class="caseStudy__content4">
                     <div class="caseStudy__cHead headingBold ">{{ page.cHead11 }}</div>
-                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead6 }}</div>
+                    <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead6 }}</div>
                     <p class="paragraph color">{{ page.cContent16 }}</p>
                     </br>
 
@@ -271,7 +271,7 @@
             <div class="caseStudy__bgImg2 bg5 csMobile" style="background-image: url('{{page.SImg16}}');">
                 <div class="caseStudy__content4">
                     <div class="caseStudy__cHead headingBold ">{{ page.cHead11 }}</div>
-                    <div class="caseStudy__cHead csHeading color">{{ page.csubHead6 }}</div>
+                    <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead6 }}</div>
                     <p class="paragraph color">{{ page.cContent16 }}</p>
                 </div>
             </div>
@@ -290,7 +290,7 @@
         <div class="caseStudy__bgImg2 enigma_bg csHd" style="background-image: url('{{page.SImg20}}');">
             <div class="caseStudy__content4">
                 <div class="caseStudy__cHead headingBold ">{{ page.cHead11 }}</div>
-                <div class="caseStudy__cHead csHeading color">{{ page.csubHead6 }}</div>
+                <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead6 }}</div>
                 <p class="paragraph color">{{ page.cContent16 }}</p>
                 </br>
                 {% for evolve in page.evolve_loop %}
@@ -302,7 +302,7 @@
         <div class="caseStudy__bgImg csMobile" style="background-image: url('{{page.SImg4}}');">
             <div class="caseStudy__content4">
                 <div class="caseStudy__cHead headingBold ">{{ page.cHead11 }}</div>
-                <div class="caseStudy__cHead csHeading color">{{ page.csubHead6 }}</div>
+                <div class="caseStudy__cHead aboutHeading color">{{ page.csubHead6 }}</div>
                 <p class="paragraph color">{{ page.cContent16 }}</p>
                 </br>
                 {% for evolve in page.evolve_loop %}
@@ -316,7 +316,7 @@
 
     </div>
     <div class="CSService3">
-        <img src="/assets/img/caseStudy-service/{{ page.SImg12  | downcase }}.png">
+        <img src="/assets/img/caseStudy-service/{{ page.SImg12  | downcase }}.jpg">
     </div>
     <!-- <div class="CSService5">
                             <img src="/assets/img/caseStudy-service/{{ page.SImg13  | downcase }}.png">
@@ -327,12 +327,12 @@
     <div class="CSService7">
         {% for images in page.img_list %}
 
-        <img src="/assets/img/caseStudy-service/{{ images.SImg18  | downcase }}.png"> {% endfor %}
+        <img src="/assets/img/caseStudy-service/{{ images.SImg18  | downcase }}.jpg"> {% endfor %}
     </div>
 </div>
 <div class="blob1">
     <div class="blob2">
-        <h1 class="headingLight">Like it?</h1>
+        <h1 class="headingLight"> Like it ?</h1>
         <a href="/workpage">
             <button class="commonButton ">View more</button>
         </a>
