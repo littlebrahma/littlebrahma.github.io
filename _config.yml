@@ -51,7 +51,7 @@ collections:
   bootcamp:
     title: Bootcamp
     output: true
-    permalink: "/bootcamp/"
+    permalink: "littlebrahma.com/bootcamp/"
 highlighter: rouge
 markdown: kramdown
 kramdown:
