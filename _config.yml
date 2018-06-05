@@ -48,6 +48,10 @@ collections:
   uploads:
     title: Uploads
     output: true
+  bootcamp:
+    title: Bootcamp
+    output: true
+    permalink: "/bootcamp/"
 highlighter: rouge
 markdown: kramdown
 kramdown:
