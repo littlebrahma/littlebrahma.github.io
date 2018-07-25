@@ -57,8 +57,9 @@ a {
 html,
 body {
   height: 100%;
-  overflow-x: hidden;
+  overflow-x: initial !important;
   -webkit-overflow-scrolling: touch;
+  padding: 0px;
 }
 
 .cd-header {
